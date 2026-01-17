@@ -12,50 +12,61 @@
 
     .header {
       background: #f9b5c7;
-      padding: 30px;
+      padding: 4vw;
       position: relative;
       text-align: center;
     }
 
     .home {
       position: absolute;
-      left: 20px;
-      top: 20px;
+      left: 3vw;
+      top: 3vw;
       text-decoration: none;
       color: black;
       font-weight: bold;
-      font-size: 18px;
+      font-size: clamp(14px, 2vw, 18px);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(24px, 4vw, 40px);
     }
 
     .content {
-      padding: 40px;
+      padding: 5vw;
       position: relative;
     }
 
     .image {
       position: absolute;
-      right: 0px;
-      top: 0px;
+      right: 0;
+      top: 0;
     }
 
     .image img {
-      width: 140px;
-      height: 100px;
-      right: 50px;
-      padding: 0px;
-      }
-
-    h1 {
-      margin: 0;
+      width: clamp(100px, 20vw, 160px);
+      height: auto;
+      padding: 0;
     }
 
     h2 {
       margin-top: 0;
+      font-size: clamp(20px, 3vw, 28px);
     }
 
     p {
       max-width: 650px;
       line-height: 1.6;
+      font-size: clamp(14px, 2.2vw, 16px);
+    }
+
+    /* Mobile fix */
+    @media (max-width: 768px) {
+      .image {
+        position: relative;
+        text-align: right;
+        margin-bottom: 20px;
+      }
     }
   </style>
 </head>
@@ -69,7 +80,7 @@
   <div class="content">
 
     <div class="image">
-      <img src="https://i.ibb.co/LXrjg2fR/picture-for-first-page.jpg"><a/> 
+      <img src="https://i.ibb.co/LXrjg2fR/picture-for-first-page.jpg">
     </div>
 
     <h2>my explorer</h2>
@@ -101,3 +112,4 @@
 
 </body>
 </html>
+
