@@ -18,6 +18,12 @@
       text-align: center;
     }
 
+.nav {
+  position:absolute;
+  left: clamp(10px, 3vw, 20px);
+  top: clamp(10px, 3vw, 20px);
+}
+    
     .home {
       position: absolute;
       left: clamp(10px, 3vw, 20px);
@@ -70,7 +76,13 @@
 <body>
 
   <div class="header">
-    <a href="#" class="home">HOME</a>
+    <a href="#" class="home">HOME</a> 
+    <div class="nav">
+    <a href="index.html">PAGE 1</a>
+    <a href="page2.html">PAGE 2</a>
+    <a href="page3.html">PAGE 3</a>
+  </div>
+    
     <h1>The Explorer</h1>
   </div>
 
