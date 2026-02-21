@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+link rel="stylesheet" href=style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>The Wanderer</title>
+ 
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffe3ea;
+  }
+
+  .header {
+    background: #f9b5c7;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+  }
+
+  .home,
+  .page2,
+  .page3 {
+    position: absolute;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .home { left: 20px; }
+  .page2 { left: 90px; }
+  .page3 { left: 170px; }
+
+  h1 {
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .content {
+    padding: 40px;
+    position: relative;
+  }
+
+  .image {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .image img {
+    width: 150px;
+    height: 150px
+      right: 50px;
+      padding: 0px;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    width: 100%;
+    line-height: 1.6;
+    text-align: center; 
+    margin: 0 auto 16px;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+    <nav>
+    <a href="index.html" class="home">HOME</a>
+    <a href="#" class="page2">PAGE 2</a>
+    <a href="#" class="page3">PAGE 3</a>
+  </nav>
+
+  <h1>The communicator</h1>
+</div>
+
+<div class="content">
+
+  <div class="image">
+    <img src="https://i.ibb.co/3m8NDb7k/download-1.jpg">
+  </div>
+   
+  <h2>The Wanderer</h2>  
+  
+  <p>I think of myself as a wanderer of sort a person who is a wanderer of the body, mind, and
+                                         will. am</p>
+                                         
+  <p>omeone who embraces the 'unfamilliar'finds value in the pathways of a journey, and 
+                                         relishes the 
+      opportunities that change and the possibility  of 'the different' presents.</p>
+      
+  <p>For me, wandering is not the state of being lost it is the state of being open. Open to new 
+    experiences, new people, new ideas, and new parts of myself. I ask questions and legions of 
+    wonders entangle me, always striving to unveil the mysteries just beyond the horizon a new 
+                                            place, 
+                      a different view, or a new self that lies in wait.</p>
+                      
+  <p>I find comfort in movement, and am, even the road or a trail is not well defined. i have learned
+    to live with a lack of focus. i have listened to internal intuition, and learned that every leg of a journey,
+    every idiosyncrasy, and every mobility, even when blind, has a value. Meaning is not derived from the 
+                              planning of a course or a leg.</p>
+                              
+  <p>I appreciate gatherings but cherish moments more a conversation that changed me, a place that 
+      stayed with me, a realization that changed how I perceive the world. I value solitude, but I also
+      treasure the connection that happens when you meet someone in a strange place and feel strangely 
+                                            understood.</p>
+                                            
+  <p>Wandering is different. I may not always have a single point of focus. but I always have intention. I 
+     with no plan, am at ease with starting over, am at ease with shopping what is no longer right. I am a
+        process of becoming and I let the world add what I honesty, openness, and wonder</p>
+</div>
+
+</body>
+</html>
