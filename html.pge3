@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Explorer</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffe3ea;
+  }
+
+  .header {
+    background: #f9b5c7;
+    padding: 30px;
+    position: relative;
+    text-align: center;
+  }
+
+  .home,
+  .page2,
+  .page3 {
+    position: absolute;
+    top: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  .home { left: 20px; }
+  .page2 { left: 90px; }
+  .page3 { left: 170px; }
+
+  h1 {
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .content {
+    padding: 40px;
+    position: relative;
+  }
+
+  .image {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+
+  .image img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    width: 100%;
+    line-height: 1.6;
+    text-align: center; 
+    margin: 0 auto 16px;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="header">
+
+  <nav>
+    <a href="index.html" class="home">HOME</a>
+    <a href="page2.html" class="page2">PAGE 2</a>
+    <a href="page3.html" class="page3">PAGE 3</a>
+  </nav>
+
+  <h1>The Explorer</h1>
+</div>
+
+<div class="content">
+
+  <div class="image">
+    <img src="https://i.ibb.co/LXrjg2fR/picture-for-first-page.jpg">
+  </div>
+
+  <h2>My Explorer</h2>
+
+  <p>
+    its all about my curiosity and adventurous, and a passion for adventure, I explore new ideas.
+  </p>
+
+  <p><strong>Passion for adventure</strong></p>
+
+  <p>
+    i have passion for adventure that drive me to explore the unknown, embrace change, and grow through every new exprience whether that's traveling new places, learning new skills, or stepping outside my comfort zone. ( here are the things I need to do.)
+  </p>
+
+  <p>
+    thrill seeking: an enjoyment of activities that involve risk, uncertainty, or physical challenges.<br>
+    desire for exploration: a strong urge to discover new places, cultures, and activities.<br>
+    personal challenges: setting ambitious goals that push physical, mental, or emotional boundaries.<br>
+    personal growth: overcoming fears, building confidence, and developing resilience.<br>
+    step out of my comfort zone: try new things, even if they seem intimidating.<br>
+    find a community: connect with like-minded individuals who share my passion.
+  </p>
+
+  <p>
+    for me, it can help me have adventures anywhere, and set boundaries, and get out of my comfort zone, be challenged and find new hobbies and make friends and have personal growth
+  </p>
+
+</div>
+
+</body>
+</html>
