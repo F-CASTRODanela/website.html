@@ -77,8 +77,8 @@
 
     <nav>
     <a href="index.html" class="home">HOME</a>
-    <a href="index.html" class="page2">PAGE 2</a>
-    <a href="index.html" class="page3">PAGE 3</a>
+    <a href="page2.html" class="page2">PAGE 2</a>
+    <a href="page3.html" class="page3">PAGE 3</a>
   </nav>
 
   <h1>The Wanderer</h1>
